@@ -18,7 +18,6 @@ VALUES
 ;
 
 
-
 INSERT INTO contract_table(contract_id, employee_id, client_name, amount_contract, contract_date, completion_data)
 VALUES 
     ('1', '4', 'JANJALA DURR', 4500.00, 2025-03-17, 2025-09-17),
@@ -82,3 +81,9 @@ VALUES
 
 -- help i have dyslexia...this was painful to do...
 
+
+--      <{send help...}
+--   ／\、
+--  （ﾟ､ ｡ ７
+--  ⠀ |、ﾞ ~ヽ
+--    じしf_, )ノ

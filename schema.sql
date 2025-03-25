@@ -4,7 +4,7 @@ DROP DATABASE IF EXISTS myworkDB;
 CREATE DATABASE myworkDB;
 USE myworkDB;
 
--- dept_dept table
+-- dept_dept-bo-tee-bo-bo-bo-tee table
 CREATE TABLE dept_dept(
     dept_id SMALLINT UNSIGNED AUTO_INCREMENT NOT NULL,
     dept_name VARCHAR(30),
@@ -50,7 +50,7 @@ CREATE TABLE transaction(
     CONSTRAINT fk_transaction_employee FOREIGN KEY (employee_id) REFERENCES employee(employee_id)
 );
 
---  work table
+-- work table
 CREATE TABLE work(
     work_id SMALLINT UNSIGNED AUTO_INCREMENT NOT NULL,
     title VARCHAR(40),
